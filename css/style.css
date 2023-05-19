@@ -1,0 +1,165 @@
+:root{
+--header-color: #2E2F42;
+--address-color: #434455;
+--link-color: #4D5AE5;
+--footer-studio: #F4F4FD;
+--hover-color: #404BBF;
+--header-studio: #2E2F42;
+--header-btn: #FFFFFF;
+--background-header: #FFFFFF;
+--background-btn-portfolio: #404BBF;
+
+
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/**-----------------HEADER--------------**/
+
+
+.header-logo{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+color: var(--link-color);
+}
+
+.header-studio{
+color: var(--header-studio)
+}
+
+.headline-section{
+    background: var(--header-color);
+}
+
+.header-link{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.15;
+color: var(--header-color)
+}
+
+.header-address-link{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+color: var(--address-color)
+}
+
+.list{
+list-style: none;
+ }
+    
+.link{
+text-decoration: none;
+}
+
+.header-item :hover, .header-item :focus{
+color: var(--hover-color)
+}
+
+
+/**-----------------MAIN--------------**/
+
+
+.main-h{
+font-family: 'Roboto';
+font-size: 56px;
+line-height: 1.20;
+color: #FFFFFF;
+}
+
+.main-btn{
+font-family: 'Roboto' sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.150;
+color: #FFFFFF;
+cursor: pointer;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+background: #4D5AE5;
+
+}
+
+.main-htree{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
+color: var(--header-color)
+ }
+
+.main-p{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+color: var(--address-color)
+}
+
+.main-list{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 36px;
+line-height: 1.11;
+color: var(--address-color)
+}
+
+.background{
+background: #F4F4FD;
+}
+ 
+.main-color{
+color: #F4F4FD;
+background-color: #2E2F42; 
+ }
+
+.main-item{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+}
+
+
+/**-----------------FOOTER--------------**/
+
+
+.background-footer{
+background: #2E2F42;
+}
+
+.header-studio-two{
+color: #F4F4FD;
+}
+
+
+
+/**-----------------PORTFOLIO--------------**/
+ 
+
+.portfolio-btn{
+background-color: #F4F4FD;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #4D5AE5;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+}
+
+.portfolio-btn:hover, .portfolio-btn:focus{
+    background: #404BBF;
+    color: #FFFFFF;
+}
