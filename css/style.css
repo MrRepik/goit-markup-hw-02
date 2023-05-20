@@ -31,6 +31,8 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 text-transform: uppercase;
+letter-spacing: 0.03em;
+font-style: normal;
 color: var(--link-color);
 }
 
@@ -170,6 +172,7 @@ background: #2E2F42;
 
 .header-studio-two{
 color: #F4F4FD;
+letter-spacing: 0.03em;
 }
 
 
@@ -199,3 +202,8 @@ border: 1px solid #E7E9FC;
 .list-style{
     list-style: none;
      }
+     
+     
+.link-style{
+ text-decoration: none;
+ }
