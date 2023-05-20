@@ -16,6 +16,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    color: var(--address-color);
+    background-color: #FFFFFF;
 }
 
 
@@ -27,6 +29,8 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 color: var(--link-color);
 }
 
@@ -43,6 +47,10 @@ font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.15;
+line-height: 1.5;
+letter-spacing: 0.02em;
+font-style: normal;
+letter-spacing: 0.02em;
 color: var(--header-color)
 }
 
@@ -74,6 +82,9 @@ color: var(--hover-color)
 font-family: 'Roboto';
 font-size: 56px;
 line-height: 1.20;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 color: #FFFFFF;
 }
 
@@ -84,8 +95,6 @@ font-size: 16px;
 line-height: 1.150;
 color: #FFFFFF;
 cursor: pointer;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 background: #4D5AE5;
 
 }
@@ -95,6 +104,7 @@ font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
+letter-spacing: 0.02em;
 color: var(--header-color)
  }
 
@@ -103,6 +113,7 @@ font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
+letter-spacing: 0.02em;
 color: var(--address-color)
 }
 
@@ -111,7 +122,7 @@ font-family: 'Roboto';
 font-weight: 400;
 font-size: 36px;
 line-height: 1.11;
-color: var(--address-color)
+color: var(--header-color)
 }
 
 .background{
@@ -156,7 +167,6 @@ font-size: 16px;
 line-height: 24px;
 color: #4D5AE5;
 border: 1px solid #E7E9FC;
-border-radius: 4px;
 }
 
 .portfolio-btn:hover, .portfolio-btn:focus{
