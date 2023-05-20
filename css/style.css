@@ -13,6 +13,13 @@
 
 }
 
+.list{
+    list-style: none;
+     }
+        
+.link{
+    text-decoration: none;
+    }
 
 
 body{
@@ -72,13 +79,7 @@ letter-spacing: 0.02em;
 color: var(--address-color);
 }
 
-.list{
-list-style: none;
- }
-    
-.link{
-text-decoration: none;
-}
+
 
 .header-item :hover, .header-item :focus{
 color: var(--hover-color);
