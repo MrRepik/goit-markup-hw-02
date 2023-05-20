@@ -8,6 +8,7 @@
 --header-btn: #FFFFFF;
 --background-header: #FFFFFF;
 --background-btn-portfolio: #404BBF;
+--background-our-team: #FFFFFF;
 
 
 }
@@ -59,6 +60,8 @@ font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
+font-style: normal;
+letter-spacing: 0.02em;
 color: var(--address-color)
 }
 
@@ -85,6 +88,7 @@ line-height: 1.20;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+line-height: 1.07;
 color: #FFFFFF;
 }
 
@@ -95,16 +99,25 @@ font-size: 16px;
 line-height: 1.150;
 color: #FFFFFF;
 cursor: pointer;
+line-height: 1.5;
+letter-spacing: 0.04em;
 background: #4D5AE5;
 
 }
+
+.main-btn :hover, .main-btn :focus{
+    background-color: var(--background-btn-portfolio)
+}
+
+
 
 .main-htree{
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
-line-height: 1.20;
+line-height: 1.2;
 letter-spacing: 0.02em;
+
 color: var(--header-color)
  }
 
@@ -122,6 +135,8 @@ font-family: 'Roboto';
 font-weight: 400;
 font-size: 36px;
 line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
 color: var(--header-color)
 }
 
@@ -139,6 +154,11 @@ font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
+letter-spacing: 0.02em
+}
+
+.our-team-section{
+    background-color: var(--background-our-team)
 }
 
 
