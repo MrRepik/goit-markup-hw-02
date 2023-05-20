@@ -36,8 +36,14 @@ font-style: normal;
 color: var(--link-color);
 }
 
+.header-address{
+    font-style: normal; 
+}
+
+
+
 .header-studio{
-color: var(--header-studio)
+color: var(--header-studio);
 }
 
 .headline-section{
@@ -53,7 +59,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 font-style: normal;
 letter-spacing: 0.02em;
-color: var(--header-color)
+color: var(--header-color);
 }
 
 .header-address-link{
@@ -63,7 +69,7 @@ font-size: 16px;
 line-height: 1.50;
 font-style: normal;
 letter-spacing: 0.02em;
-color: var(--address-color)
+color: var(--address-color);
 }
 
 .list{
@@ -75,7 +81,7 @@ text-decoration: none;
 }
 
 .header-item :hover, .header-item :focus{
-color: var(--hover-color)
+color: var(--hover-color);
 }
 
 
@@ -94,7 +100,7 @@ color: #FFFFFF;
 }
 
 .main-btn{
-font-family: 'Roboto' sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.150;
@@ -106,8 +112,8 @@ background: #4D5AE5;
 
 }
 
-.main-btn :hover, .main-btn :focus{
-    background-color: var(--background-btn-portfolio)
+.main-btn:hover, .main-btn:focus{
+    background-color: var(--background-btn-portfolio);
 }
 
 
@@ -118,8 +124,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-
-color: var(--header-color)
+color: var(--header-color);
  }
 
 .main-p{
@@ -128,7 +133,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color: var(--address-color)
+color: var(--address-color);
 }
 
 .main-list{
@@ -138,7 +143,8 @@ font-size: 36px;
 line-height: 1.11;
 text-align: center;
 text-transform: capitalize;
-color: var(--header-color)
+letter-spacing: 0.02em;
+color: var(--header-color);
 }
 
 .background{
@@ -155,11 +161,11 @@ font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
-letter-spacing: 0.02em
+letter-spacing: 0.02em;
 }
 
 .our-team-section{
-    background-color: var(--background-our-team)
+    background-color: var(--background-our-team);
 }
 
 
@@ -182,7 +188,7 @@ letter-spacing: 0.03em;
 
 .portfolio-btn{
 background-color: #F4F4FD;
-font-family: 'Roboto' sans-serif;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
