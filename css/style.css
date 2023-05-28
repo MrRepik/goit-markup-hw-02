@@ -71,7 +71,6 @@ color: var(--header-color);
 
 .header-address-link{
 font-family: 'Roboto';
-font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 font-style: normal;
@@ -114,7 +113,7 @@ background: #4D5AE5;
 }
 
 .main-btn:hover, .main-btn:focus{
-    background-color: var(--background-btn-portfolio);
+background-color: var(--background-btn-portfolio);
 }
 
 
@@ -130,7 +129,6 @@ color: var(--header-color);
 
 .main-p{
 font-family: 'Roboto';
-font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
@@ -139,7 +137,6 @@ color: var(--address-color);
 
 .main-list{
 font-family: 'Roboto';
-font-weight: 400;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -159,7 +156,6 @@ background-color: #2E2F42;
 
 .main-item{
 font-family: 'Roboto';
-font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
